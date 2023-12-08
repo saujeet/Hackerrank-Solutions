@@ -9,4 +9,17 @@ function staircase(n) {
         console.log(result);
     }
 
+    /*
+    for (let i = 1; i <= n; i++) {
+        let pattern = '';
+        for (let j = n; j > 0; j--) {
+            if (j > i) {
+                pattern += ' ';
+            } else {
+                pattern += '#';
+            }
+        }
+        console.log(pattern);
+    }
+    */
 }
